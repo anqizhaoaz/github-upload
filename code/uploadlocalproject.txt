@@ -11,5 +11,9 @@ H2 add fresh new project folder
 8. Type git push origin master to push the files you have locally to the remote on GitHub.
 
 H3 update fresh new project folder (changes in the uploaded folder)
-1. in command line, navigate to your project directory.
-2. git status
+in command line, navigate to your project directory.
+git remote add origin https://github.com/anqizhaoaz/github-upload.git
+git status
+git add uploadlocalproject.txt
+git commit -m "update txt file"
+git push origin master 
