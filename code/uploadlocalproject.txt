@@ -1,0 +1,15 @@
+
+H2 add fresh new project folder
+
+1. open github.com and create a new repo
+2. create a local folder to host files/folder for uploading
+3. in command line, navigate to your project directory. Type git init to initialize the directory as a Git repository.
+4. add readme.nd and .gitignore to local folder
+5. Type git remote add origin https://github.com/anqizhaoaz/github-upload.git
+6. Type git add .
+7. Type git commit -m "initializing repository"
+8. Type git push origin master to push the files you have locally to the remote on GitHub.
+
+H3 update fresh new project folder (changes in the uploaded folder)
+1. in command line, navigate to your project directory.
+2. git status
